@@ -8,6 +8,7 @@
     <title>Glazzom</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -177,6 +178,86 @@
     </div>
 </section>
 
+<!--PHOTO GALLERY-->
+
+<div class="section py-5" id="gallery">
+    <div class="container">
+        <h1 class="text-center">Photo Gallery</h1>
+        <p class="text-center">Check out our photos</p>
+        <div class="row mb-4">
+            <div class="col-md-4 align-self-center">
+                <a href="img/manu.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="img/manu.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 align-self-center">
+                <a href="img/yoda.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="img/yoda.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 align-self-center">
+                <a href="img/mvegeta.jpg" class="align-content-center" data-toggle="lightbox"
+                   data-gallery="img-gallery">
+                    <img src="img/mvegeta.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-4 align-self-center">
+                <a href="img/harpia.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="img/harpia.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 align-self-center">
+                <a href="img/keepcalm.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="img/keepcalm.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 align-self-center">
+                <a href="img/wstock.jpg" class="align-content-center" data-toggle="lightbox"
+                   data-gallery="img-gallery">
+                    <img src="img/wstock.jpg" class="img-fluid" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--NEWSLETTER SECTION-->
+
+<section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Signup For Our Newsletter</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolorum eos exercitationem fugit impedit maxime nesciunt numquam provident ratione voluptates.</p>
+                <form action="" class="form-inline justify-content-center">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Name">
+
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER-->
+
+<footer id="main-footer" class="text-center p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Copyright 2017 &copy; Manu</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 <!--VIDEO MODAL-->
 
 <div class="modal fade" id="videoModal">
@@ -193,6 +274,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
